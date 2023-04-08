@@ -1,0 +1,118 @@
+-- Check who is logged in 
+	- git config user.name
+
+-- Add remote
+	- git remote add origin https://github.com/Saboor-Hamedi/Learn-github.git
+
+-- Show hidden files
+	-ls -a
+
+-- Create txt
+	-touch test.txt
+
+-- Remove txt 
+	-rm test.txt
+
+-- Create folder 
+	-mkdir test
+
+-- Remove folder 
+	-rm -r test
+
+--To summarize:
+
+	-  -rm is a command.
+	-  -r is a flag.
+	-   test is an argument.
+
+-- Remove all files with the same extension
+	-rm*.png, jpg, gif, txt and so on .....
+
+-- Remove all files which start is test
+	-rm *test
+
+-- Open explorer on especific directory
+	-explorer 'F:\github\practice1'
+
+-- print text from files
+	-cat test.txt
+	 --output, text inside
+
+-- Search for test 
+	-grep 'keyword' test.txt
+
+-- Write on README.md
+	-nano README.md
+
+-- Add link on README.md
+	-[a link] (https://www.google.com)
+
+-- Get link of your current repp
+	-git config --get remote.origin.url
+
+-- Rename folder 
+	mv folder1 folder2
+-- Rename .Txt 
+
+	mv Hello_world.txt foldername
+-- Move file to folder 
+	mv filename.txt folders/
+
+	mv filename.txt /path/to/foldername/ # to move in another or different path
+-- Remove file from folder 
+	mv filename.txt ../
+
+<<<<<<< HEAD
+-- Move all files to a folder 
+	mv * foldername 
+	
+-- Remove all files from folder 
+	mv * .. /
+
+-- Move two or more then two files
+	mv file1 file2 foldername
+
+=======
+>>>>>>> 25e5270a96c23b096591d133876e5010f1493ec3
+-- Core.editor
+	git config --global core.editor "code --wait"
+
+-- Get the url
+	git config --get remote.origin.url
+
+-- To make repo from commend line
+	gh auth login
+	gh repo create my-newrepo --public --source=. --remote=upstream --push
+
+-- Rename remote
+	git remote rename upstream origin
+-- Write something on your file
+	
+-- Display lest of Drivers
+	df -h
+
+-- Write file.txt 
+	echo "hello world" > filename.txt 
+
+-- Write in new file.txt 
+	echo "how are you" >>filename.txt
+	
+-- Read file.xt 
+	cat.filename
+
+-- Untrach file from push 
+	git -rm --caached filename 
+
+
+-- Make new Branch
+	git branch newbranch
+
+-- To change from one branch to another 
+	git checkout branch
+
+-- To merge two different branches
+	git merge saboor
+-- To delete branch 
+	git -d branchname
+
+
